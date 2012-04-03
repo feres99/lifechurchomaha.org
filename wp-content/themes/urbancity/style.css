@@ -627,6 +627,7 @@ button:active,
 }
 .footer_nav {
 	text-align:right;
+        font-size: 14px;
 }
 .footer_nav li {
 	list-style:none;
