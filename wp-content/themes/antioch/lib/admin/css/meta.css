@@ -1,0 +1,120 @@
+/* Custom Admin CSS */
+
+h2.meta_section {
+	clear:left !important;
+	padding-top:20px !important;
+	margin:0 0 0 15px !important;
+}
+.meta_item {
+	clear:both;
+	padding-top:20px;
+}
+.first {
+	padding-top:0;
+}
+.meta_item label {
+	float:left;
+	padding:8px 2px 0;
+	width:125px;
+	text-align:right;
+}
+.meta_item input {
+	float:left;
+	padding:5px;
+	margin-left:10px;
+}
+.meta_item a.button {
+	float:left;
+	clear:left;
+	margin:10px 0 0 140px;
+}
+.verse_start {
+	float:left;
+	margin-bottom:20px;
+}
+.verse_start input {
+	float:none !important;
+	margin:0 10px !important;
+}
+.verse_end {
+	float:left;
+	clear:none;
+	margin-bottom:20px;
+}
+.verse_end input {
+	float:none !important;
+	margin:0 10px !important;
+}
+.phone_label {
+	float:left;
+	margin-bottom:20px;
+}
+.phone_label input {
+	float:none !important;
+	margin:0 10px !important;
+}
+.phone_number {
+	float:left;
+	clear:none;
+}
+.phone_number input {
+	float:none !important;
+	margin:0 10px !important;
+}
+.meta_item textarea {
+	float:left;
+	padding:5px;
+	margin-left:10px;
+}
+.meta_item select {
+	float:left;
+	padding:5px 0;
+	width:175px;
+	margin-left:10px;
+}
+.meta_item p {
+	float:left;
+	padding:0 0 0 18px;
+}
+p.meta_info {
+	float:left;
+	line-height:18px;
+	padding:0 25px 0 135px;
+}
+.meta_item span {
+	float:left;
+	clear:left;
+	padding:10px 25px 0 140px;
+	font-size:10px;
+	line-height:16px;
+	color:#999;
+	font-style:italic;
+}
+.meta_item span.label_note {
+	float:none;
+	clear:none;
+	padding:0;
+	font-size:10px;
+	color:#999;
+}
+.meta_clear {
+	clear:both;
+	height:30px;
+}
+hr.meta_divider {
+	float:left;
+	clear:both;
+	width:95%;
+	margin:40px 0 30px 20px;
+	border:none;
+	border-top:1px solid #eee;
+}
+.placeholder {
+	color:#bbb !important;
+}
+
+/* Widget Admin */
+input.error {
+	background-color:#fff5f3 !important;
+	border:1px solid #ffd9d5 !important;
+}

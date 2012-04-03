@@ -1,0 +1,40 @@
+*** Antioch (Free Edition) Changelog ***
+
+2011.11.05 - version 1.0.7 (Skipping version 1.0.6)
+ * Added function to allow shortcodes in text widgets
+ * Changed home.php to front-page.php for better template hierarchy outcomes
+ * Fixed CSS bug not allowing color change on slide taglines
+
+2011.10.06 - version 1.0.5
+ * Fixed anchor bug on slides where titles were overlapping clickable area
+ * Fixed search form input bug in Firefox
+ * Added meta option on Slides for disabling the Title/Tagline text
+
+2011.09.07 - version 1.0.4
+ * Fixed CSS to allow more flexibility for logo top margin
+ * All search results now have a forced class of "post"
+ * Added unique ID to content container for better semantics
+ * Added the_author_posts_link to posts loop
+ * Fully dropped IE7 support
+ * Added function to force newer jQuery load (v1.6.1) on pre-3.2 WP installs
+
+2011.08.19 - version 1.0.3
+ * Made improvements to the Upgrade Theme screen
+
+2011.08.18 - version 1.0.2
+ * Removed Slide permalinks
+ * Removed Slides from being searchable
+ * Added YouTube and Vimeo shortcode buttons to TinyMCE editor
+
+2011.08.01 - version 1.0.1
+ * CSS additions and bug fixes
+ * Menu enhancements with better fallback if Custom Menus are not set
+ * Made 'Sidebar Right' the default for all sidebar areas if not set in settings
+ * Various bug fixes
+ * Removed search-suggest.php due to errors
+ * Combined scripts.js and jquery.dropdownPlain.js as custom.js
+ * Removed all Custom Post Type references for paid versions only
+ * Fixed theme name and capabilities error in upgrade-theme.php
+
+2011.07.12 - version 1.0
+ * First release!

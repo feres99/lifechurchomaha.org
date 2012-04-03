@@ -1,0 +1,53 @@
+/* Theme Options Panel */
+
+.icon32-posts-slide {
+	background:url(../images/menu_icon-slide-32.png) no-repeat !important;
+}
+
+.form-table.churchthemes th,
+.form-table.churchthemes td {
+	border-bottom:1px solid #eee;
+	padding:15px 0;
+	text-align:left;
+	vertical-align:middle !important;
+}
+
+.form-table.churchthemes tr.top th,
+.form-table.churchthemes tr.top td {
+	vertical-align:top !important;
+}
+
+.form-table.churchthemes td.option {
+	width:30em;
+}
+
+.form-table.churchthemes td.info p {
+	font-size:11px !important;
+}
+
+.form-table.churchthemes .button {
+	margin-top:10px;
+}
+
+.form-table.churchthemes .preview {
+	float:left;
+	clear:both;
+	margin-top:10px;
+	padding:5px;
+	border:1px solid #eee;
+	background:#fff;
+}
+
+.upgrade-page h3 {
+	margin-top:20px;
+}
+
+.upgrade-page ul {
+	margin-bottom:20px;
+}
+
+.upgrade-page ul li {
+	list-style:disc;
+	padding-bottom:5px;
+	margin-left:30px;
+}
