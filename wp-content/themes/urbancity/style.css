@@ -243,6 +243,9 @@ button:active,
 /* Header */
 #header {
 	display:table;
+        background-image: url(images/background.png);
+        background-repeat: no-repeat;
+        background-position: 0px 2px;
 }
 #header .logo {
 	margin-top:50px;
