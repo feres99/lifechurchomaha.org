@@ -42,7 +42,7 @@ get_header(); ?>
 					));
 				?>
 				<?php edit_post_link( __('Edit this page', 'churchthemes'), '', ''); ?>
-				<?php comments_template('', true); ?>
+				<?php /* comments_template('', true); */ ?>
 <?php endwhile; ?>
 			</div>			
 <?php if($page_layout == 'right' || empty($page_layout)): get_sidebar(); endif; ?>

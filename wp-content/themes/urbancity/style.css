@@ -429,6 +429,7 @@ button:active,
 	right:0;
 	top:240px;
 	width:924px;
+        display: none;
 }
 .mask .slide_content {
 	color:#fff;
@@ -560,7 +561,7 @@ button:active,
 .social_bar .title {
 	text-align:center;
 	text-transform:uppercase;
-	margin-top:15px;
+	margin-top:20px;
 }
 .social_bar .connect ul {
 	margin-right:40px;

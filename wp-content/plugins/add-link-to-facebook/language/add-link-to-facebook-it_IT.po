@@ -1,0 +1,1290 @@
+# Copyright (C) 2010 Marcel Bokhorst
+# This file is distributed under the same license as the Add Link to Facebook package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Add Link to Facebook in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-24 09:40+0100\n"
+"PO-Revision-Date: 2012-02-24 17:46+0100\n"
+"Last-Translator: Marcel Bokhorst\n"
+"Language-Team: Gianni Diurno | gidibao.net & charmingpress.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-link-to-facebook-admin.php:12
+#: add-link-to-facebook-class.php:672
+#: add-link-to-facebook-class.php:695
+#: add-link-to-facebook-class.php:726
+#: add-link-to-facebook-class.php:727
+#: add-link-to-facebook-class.php:908
+#: add-link-to-facebook-class.php:2284
+msgid "Add Link to Facebook"
+msgstr "Add Link to Facebook"
+
+#: add-link-to-facebook-admin.php:26
+msgid "Only this user can access the settings:"
+msgstr "Solo questo utente potrà accedere alle impostazioni:"
+
+#: add-link-to-facebook-admin.php:111
+msgid "Your server may not allow external connections"
+msgstr "Il tuo server non permette le connessioni esterne"
+
+#: add-link-to-facebook-admin.php:119
+msgid "Please be aware that comment integration or showing Facebook messages in the widget could harm the privacy of other Facebook users!"
+msgstr "Sappi che l&rsquo;integrazione dei commenti o il mostrare nel widget i messaggi di Facebook potrebbe compromettere la privacy degli altri utenti Facebook!"
+
+#: add-link-to-facebook-admin.php:128
+msgid "Authorization"
+msgstr "Autorizzazione"
+
+#: add-link-to-facebook-admin.php:133
+msgid "Plugin is authorized"
+msgstr "Il plugin é autorizzato"
+
+#: add-link-to-facebook-admin.php:138
+msgid "Links will be added to"
+msgstr "I link saranno aggiunti a"
+
+#: add-link-to-facebook-admin.php:155
+msgid "Authorize"
+msgstr "Autorizza"
+
+#: add-link-to-facebook-admin.php:170
+#: add-link-to-facebook-admin.php:1374
+msgid "Donate in EUR"
+msgstr "Donazioni in EUR"
+
+#: add-link-to-facebook-admin.php:183
+#: add-link-to-facebook-admin.php:288
+msgid "Show"
+msgstr "Mostra"
+
+#: add-link-to-facebook-admin.php:204
+msgid "Easy setup"
+msgstr "Configurazione semplificata"
+
+#: add-link-to-facebook-admin.php:213
+msgid "To get an App ID and App Secret you have to create a Facebook application"
+msgstr "Per ottenere le App ID e Secret dovrai creare una applicazione Facebook"
+
+#: add-link-to-facebook-admin.php:214
+msgid "You have to fill in the following:"
+msgstr "Compila quanto segue:"
+
+#: add-link-to-facebook-admin.php:217
+#: add-link-to-facebook-admin.php:261
+msgid "App Name:"
+msgstr "Nome app:"
+
+#: add-link-to-facebook-admin.php:218
+msgid "Anything you like, will appear as \"via ...\" below the message"
+msgstr "un nome per la tua applicazione..."
+
+#: add-link-to-facebook-admin.php:221
+msgid "Website > Site URL:"
+msgstr "Sito web > URL sito:"
+
+#: add-link-to-facebook-admin.php:225
+msgid "Click here to create"
+msgstr "Clicca qui per crearla"
+
+#: add-link-to-facebook-admin.php:226
+msgid "and navigate to '<em>Apps</em>' and then to '<em>Create New App</em>'"
+msgstr "andando a '<em>Le mie applicazioni</em>' quindi a '<em>Create New App</em>'"
+
+#: add-link-to-facebook-admin.php:231
+msgid "App ID:"
+msgstr "App ID:"
+
+#: add-link-to-facebook-admin.php:237
+msgid "App Secret:"
+msgstr "App Secret:"
+
+#: add-link-to-facebook-admin.php:246
+msgid "Access token:"
+msgstr "Token d&rsquo;accesso:"
+
+#: add-link-to-facebook-admin.php:274
+msgid "Share with all users on this site:"
+msgstr "Condividi con tutti gli utenti di questo sito:"
+
+#: add-link-to-facebook-admin.php:284
+#: add-link-to-facebook-admin.php:361
+#: add-link-to-facebook-admin.php:451
+#: add-link-to-facebook-admin.php:508
+#: add-link-to-facebook-admin.php:581
+#: add-link-to-facebook-admin.php:637
+#: add-link-to-facebook-admin.php:694
+#: add-link-to-facebook-admin.php:723
+#: add-link-to-facebook-admin.php:752
+#: add-link-to-facebook-admin.php:778
+#: add-link-to-facebook-admin.php:823
+#: add-link-to-facebook-admin.php:859
+#: add-link-to-facebook-admin.php:967
+#: add-link-to-facebook-admin.php:1026
+#: add-link-to-facebook-admin.php:1300
+msgid "Save"
+msgstr "Salva"
+
+#: add-link-to-facebook-admin.php:305
+msgid "Additional settings"
+msgstr "Impostazioni aggiuntive"
+
+#: add-link-to-facebook-admin.php:308
+msgid "Picture"
+msgstr "Immagine"
+
+#: add-link-to-facebook-admin.php:309
+msgid "Page/group"
+msgstr "Pagina/Gruppo"
+
+#: add-link-to-facebook-admin.php:310
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: add-link-to-facebook-admin.php:311
+msgid "Comments"
+msgstr "Commenti"
+
+#: add-link-to-facebook-admin.php:312
+msgid "Like button"
+msgstr "Pulsante Mi piace"
+
+#: add-link-to-facebook-admin.php:313
+msgid "Like box"
+msgstr "Box Mi piace"
+
+#: add-link-to-facebook-admin.php:314
+msgid "Comments plugin"
+msgstr "Plugin commenti"
+
+#: add-link-to-facebook-admin.php:315
+msgid "Face pile"
+msgstr "Face pile"
+
+#: add-link-to-facebook-admin.php:316
+msgid "Login"
+msgstr "Login"
+
+#: add-link-to-facebook-admin.php:317
+msgid "Activity feed"
+msgstr "Feed attività"
+
+#: add-link-to-facebook-admin.php:318
+msgid "Common"
+msgstr "Base"
+
+#: add-link-to-facebook-admin.php:319
+msgid "Misc."
+msgstr "Varie"
+
+#: add-link-to-facebook-admin.php:320
+msgid "Admin"
+msgstr "Amministrazione"
+
+#: add-link-to-facebook-admin.php:325
+#: add-link-to-facebook-class.php:993
+msgid "Link picture"
+msgstr "Opzioni link alla immagine"
+
+#: add-link-to-facebook-admin.php:328
+msgid "Link picture:"
+msgstr "Link immagine:"
+
+#: add-link-to-facebook-admin.php:330
+msgid "WordPress logo"
+msgstr "logo WordPress"
+
+#: add-link-to-facebook-admin.php:331
+msgid "First attached image"
+msgstr "la prima immagine allegata"
+
+#: add-link-to-facebook-admin.php:332
+msgid "Featured post image"
+msgstr "immagine in evidenza"
+
+#: add-link-to-facebook-admin.php:333
+msgid "Let Facebook select"
+msgstr "Facebook (predefinita)"
+
+#: add-link-to-facebook-admin.php:334
+msgid "First image in the post"
+msgstr "la prima immagine nell&rsquo;articolo"
+
+#: add-link-to-facebook-admin.php:335
+msgid "Avatar of author"
+msgstr "avatar autore"
+
+#: add-link-to-facebook-admin.php:339
+msgid "Image from User Photo plugin"
+msgstr "immagine da plugin User Photo"
+
+#: add-link-to-facebook-admin.php:343
+msgid "Custom picture below"
+msgstr "immagine personalizzata (qui sotto)"
+
+#: add-link-to-facebook-admin.php:347
+msgid "Custom picture URL:"
+msgstr "URL immagine personalizzata:"
+
+#: add-link-to-facebook-admin.php:350
+msgid "At least 50 x 50 pixels"
+msgstr "minimo 50 x 50 pixel"
+
+#: add-link-to-facebook-admin.php:354
+msgid "Default picture URL:"
+msgstr "URL immagine predefinita:"
+
+#: add-link-to-facebook-admin.php:357
+msgid "Default WordPress logo"
+msgstr "logo predefinito WordPress"
+
+#: add-link-to-facebook-admin.php:393
+msgid "Facebook page"
+msgstr "Pagina Facebook"
+
+#: add-link-to-facebook-admin.php:396
+msgid "See all pages:"
+msgstr "Vedi tutte le pagine:"
+
+#: add-link-to-facebook-admin.php:399
+msgid "Requires manage pages permission"
+msgstr "richiede permesso gestione pagine"
+
+#: add-link-to-facebook-admin.php:400
+msgid "Check this too if you want to add as page owner"
+msgstr "Metti il segno di spunta qualora desiderassi aggiungere come proprietario pagina"
+
+#: add-link-to-facebook-admin.php:404
+msgid "Add to page:"
+msgstr "Aggiungi alla pagina:"
+
+#: add-link-to-facebook-admin.php:409
+#: add-link-to-facebook-admin.php:430
+msgid "Personal"
+msgstr "Personale"
+
+#: add-link-to-facebook-admin.php:423
+msgid "Add also to pages:"
+msgstr "Aggiungi anche alle pagine:"
+
+#: add-link-to-facebook-admin.php:443
+msgid "This option is only available in"
+msgstr "Opzione disponibile solo per"
+
+#: add-link-to-facebook-admin.php:467
+msgid "Facebook group"
+msgstr "Gruppo Facebook"
+
+#: add-link-to-facebook-admin.php:470
+msgid "Use groups:"
+msgstr "Utilizza ruolo:"
+
+#: add-link-to-facebook-admin.php:473
+msgid "Requires user groups permission"
+msgstr "richiede permessi gruppo utenti"
+
+#: add-link-to-facebook-admin.php:488
+msgid "Add to group:"
+msgstr "Aggiungi al gruppo:"
+
+#: add-link-to-facebook-admin.php:492
+#: add-link-to-facebook-admin.php:617
+#: add-link-to-facebook-admin.php:1093
+#: add-link-to-facebook-class.php:951
+msgid "None"
+msgstr "nessuno"
+
+#: add-link-to-facebook-admin.php:518
+msgid "First authorize the plugin"
+msgstr "Autorizza il plugin adesso"
+
+#: add-link-to-facebook-admin.php:525
+msgid "Link appearance"
+msgstr "Aspetto link"
+
+#: add-link-to-facebook-admin.php:528
+msgid "Use site title as caption:"
+msgstr "Usa nome sito:"
+
+#: add-link-to-facebook-admin.php:535
+msgid "Use excerpt as message:"
+msgstr "Usa estratto:"
+
+#: add-link-to-facebook-admin.php:541
+msgid "Text trailer:"
+msgstr "Text trailer:"
+
+#: add-link-to-facebook-admin.php:544
+#: add-link-to-facebook-admin.php:598
+msgid "For example \"Read more ...\""
+msgstr "ad esempio \"Prosegui la lettura ...\""
+
+#: add-link-to-facebook-admin.php:548
+msgid "Keep hyperlinks:"
+msgstr "Gestione link:"
+
+#: add-link-to-facebook-admin.php:551
+msgid "The hyperlink title will be removed"
+msgstr "l&rsquo;attributo titolo verrà rimosso dal link"
+
+#: add-link-to-facebook-admin.php:555
+msgid "Add 'Share' link:"
+msgstr "Aggiungi link 'Share':"
+
+#: add-link-to-facebook-admin.php:562
+msgid "Use short URL:"
+msgstr "Usa URL breve:"
+
+#: add-link-to-facebook-admin.php:565
+msgid "If available"
+msgstr "se disponibile"
+
+#: add-link-to-facebook-admin.php:569
+msgid "Privacy:"
+msgstr "Privacy:"
+
+#: add-link-to-facebook-admin.php:571
+msgid "Default"
+msgstr "predefinita"
+
+#: add-link-to-facebook-admin.php:572
+msgid "Everyone"
+msgstr "chiunque"
+
+#: add-link-to-facebook-admin.php:573
+msgid "All friends"
+msgstr "per tutti gli amici"
+
+#: add-link-to-facebook-admin.php:574
+msgid "Network friends"
+msgstr "network amici"
+
+#: add-link-to-facebook-admin.php:575
+msgid "Friends of friends"
+msgstr "amici degli amici"
+
+#: add-link-to-facebook-admin.php:576
+msgid "Only me"
+msgstr "solo per me"
+
+#: add-link-to-facebook-admin.php:577
+msgid "Only works for your personal wall"
+msgstr "Funziona solamente per il tuo personal wall"
+
+#: add-link-to-facebook-admin.php:586
+msgid "Facebook comments"
+msgstr "Commenti Facebook"
+
+#: add-link-to-facebook-admin.php:589
+msgid "Integrate comments from Facebook:"
+msgstr "Integra i commenti da FB:"
+
+#: add-link-to-facebook-admin.php:595
+msgid "Comment trailer:"
+msgstr "Trailer commento:"
+
+#: add-link-to-facebook-admin.php:602
+msgid "Post WordPress comments back to Facebook:"
+msgstr "Pubblica i commenti WP di risposta su FB:"
+
+#: add-link-to-facebook-admin.php:608
+msgid "Copy comments from Facebook to WordPress:"
+msgstr "Copia i commenti da Facebook a WordPress:"
+
+#: add-link-to-facebook-admin.php:611
+msgid "Enables for example editing of Facebook comments"
+msgstr "attiva ad esempio editing commenti Facebook"
+
+#: add-link-to-facebook-admin.php:615
+msgid "Link Facebook comment to:"
+msgstr "Collega commento FB a:"
+
+#: add-link-to-facebook-admin.php:618
+#: add-link-to-facebook-admin.php:621
+msgid "Disables displaying of Facebook avatars too"
+msgstr "disattiva anche visualizzazione avatar FB"
+
+#: add-link-to-facebook-admin.php:619
+msgid "Profile author"
+msgstr "profilo autore"
+
+#: add-link-to-facebook-admin.php:620
+msgid "Added link"
+msgstr "collegamento aggiunto"
+
+#: add-link-to-facebook-admin.php:620
+msgid "Does not work for groups"
+msgstr "Non funziona per i gruppi"
+
+#: add-link-to-facebook-admin.php:625
+msgid "Integrate likes from Facebook:"
+msgstr "Integra i Mi piace da FB:"
+
+#: add-link-to-facebook-admin.php:631
+msgid "Show likers below the post text:"
+msgstr "Mostra sotto il testo i fan:"
+
+#: add-link-to-facebook-admin.php:642
+msgid "Facebook like button"
+msgstr "Pulsante Facebook Mi piace"
+
+#: add-link-to-facebook-admin.php:645
+msgid "Show Facebook like button:"
+msgstr "Mostra pulsante FB Mi piace:"
+
+#: add-link-to-facebook-admin.php:648
+#: add-link-to-facebook-admin.php:683
+#: add-link-to-facebook-admin.php:791
+#: add-link-to-facebook-admin.php:805
+#: add-link-to-facebook-admin.php:947
+#: add-link-to-facebook-admin.php:955
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: add-link-to-facebook-admin.php:652
+msgid "Layout:"
+msgstr "Layout:"
+
+#: add-link-to-facebook-admin.php:654
+msgid "Standard"
+msgstr "standard"
+
+#: add-link-to-facebook-admin.php:655
+msgid "Button with count"
+msgstr "pulsante con contatore"
+
+#: add-link-to-facebook-admin.php:656
+msgid "Box with count"
+msgstr "box con contatore"
+
+#: add-link-to-facebook-admin.php:660
+#: add-link-to-facebook-admin.php:703
+#: add-link-to-facebook-admin.php:738
+#: add-link-to-facebook-admin.php:770
+#: add-link-to-facebook-admin.php:832
+msgid "Width:"
+msgstr "Larghezza:"
+
+#: add-link-to-facebook-admin.php:663
+#: add-link-to-facebook-admin.php:706
+#: add-link-to-facebook-admin.php:741
+#: add-link-to-facebook-admin.php:773
+#: add-link-to-facebook-admin.php:790
+#: add-link-to-facebook-admin.php:798
+#: add-link-to-facebook-admin.php:835
+#: add-link-to-facebook-admin.php:842
+msgid "Pixels"
+msgstr "pixel"
+
+#: add-link-to-facebook-admin.php:667
+msgid "Action:"
+msgstr "Azione:"
+
+#: add-link-to-facebook-admin.php:669
+#: add-link-to-facebook-int.php:906
+msgid "Like"
+msgstr "Mi piace"
+
+#: add-link-to-facebook-admin.php:670
+#: add-link-to-facebook-int.php:906
+msgid "Recommend"
+msgstr "Consiglia"
+
+#: add-link-to-facebook-admin.php:674
+msgid "Show at the top of the post:"
+msgstr "Mostra in cima all&rsquo;articolo:"
+
+#: add-link-to-facebook-admin.php:680
+msgid "Show Facebook send button:"
+msgstr "Mostra pulsante FB Send:"
+
+#: add-link-to-facebook-admin.php:687
+msgid "Combine Facebook like and send buttons:"
+msgstr "Abbina pulsanti FB Mi piace e Send:"
+
+#: add-link-to-facebook-admin.php:699
+msgid "Facebook like box"
+msgstr "Facebook like box"
+
+#: add-link-to-facebook-admin.php:710
+msgid "Disable like box header:"
+msgstr "Disattiva like box header:"
+
+#: add-link-to-facebook-admin.php:716
+msgid "Disable like box stream:"
+msgstr "Disattiva like box stream:"
+
+#: add-link-to-facebook-admin.php:728
+msgid "Facebook comments plugin"
+msgstr "Plugin commenti Facebook"
+
+#: add-link-to-facebook-admin.php:732
+msgid "Number of posts:"
+msgstr "Numero di messaggi:"
+
+#: add-link-to-facebook-admin.php:745
+msgid "Display automatically after post:"
+msgstr "mostra in automatico dopo post:"
+
+#: add-link-to-facebook-admin.php:757
+msgid "Facebook face pile"
+msgstr "Facebook face pile"
+
+#: add-link-to-facebook-admin.php:761
+msgid "Size:"
+msgstr "Dimensione:"
+
+#: add-link-to-facebook-admin.php:764
+msgid "Small"
+msgstr "piccola"
+
+#: add-link-to-facebook-admin.php:765
+msgid "Large"
+msgstr "grande"
+
+#: add-link-to-facebook-admin.php:783
+msgid "Facebook login"
+msgstr "Login Facebook"
+
+#: add-link-to-facebook-admin.php:787
+msgid "Registration width:"
+msgstr "Larghezza registrazione:"
+
+#: add-link-to-facebook-admin.php:795
+msgid "Login width:"
+msgstr "Larghezza login:"
+
+#: add-link-to-facebook-admin.php:802
+msgid "Login registration URL:"
+msgstr "URL registrazione login:"
+
+#: add-link-to-facebook-admin.php:809
+msgid "Login redirect URL:"
+msgstr "URL reindirizzamento login:"
+
+#: add-link-to-facebook-admin.php:815
+msgid "Text or HTML when logged in:"
+msgstr "Testo o HTML quando collegati:"
+
+#: add-link-to-facebook-admin.php:828
+msgid "Facebook activity feed"
+msgstr "Facebook feed attività"
+
+#: add-link-to-facebook-admin.php:839
+msgid "Height:"
+msgstr "Altezza:"
+
+#: add-link-to-facebook-admin.php:846
+msgid "Show header:"
+msgstr "Mostra header:"
+
+#: add-link-to-facebook-admin.php:852
+msgid "Show recommendations:"
+msgstr "Mostra recommendations:"
+
+#: add-link-to-facebook-admin.php:864
+msgid "Facebook common"
+msgstr "Facebook base"
+
+#: add-link-to-facebook-admin.php:868
+msgid "Do not show on the home page:"
+msgstr "Non mostrare nella home:"
+
+#: add-link-to-facebook-admin.php:874
+msgid "Do not show on posts:"
+msgstr "Non mostrare negli articoli:"
+
+#: add-link-to-facebook-admin.php:880
+msgid "Do not show on pages:"
+msgstr "Non mostrare nelle pagine:"
+
+#: add-link-to-facebook-admin.php:886
+msgid "Do not show in archives:"
+msgstr "Non mostrare negli archivi:"
+
+#: add-link-to-facebook-admin.php:892
+msgid "Do not show in categories:"
+msgstr "Non mostrare nelle categorie:"
+
+#: add-link-to-facebook-admin.php:898
+msgid "Faces:"
+msgstr "Faces:"
+
+#: add-link-to-facebook-admin.php:904
+msgid "Maximum count of rows:"
+msgstr "Numero massimo righe:"
+
+#: add-link-to-facebook-admin.php:910
+msgid "Font:"
+msgstr "Carattere:"
+
+#: add-link-to-facebook-admin.php:924
+msgid "Color scheme:"
+msgstr "Schema colore:"
+
+#: add-link-to-facebook-admin.php:926
+msgid "Light"
+msgstr "chiaro"
+
+#: add-link-to-facebook-admin.php:927
+msgid "Dark"
+msgstr "scuro"
+
+#: add-link-to-facebook-admin.php:931
+msgid "Border color:"
+msgstr "Colore del bordo:"
+
+#: add-link-to-facebook-admin.php:937
+msgid "Link to:"
+msgstr "Collegato a: "
+
+#: add-link-to-facebook-admin.php:940
+msgid "Default the post or page"
+msgstr "pagina o articolo predefinito"
+
+#: add-link-to-facebook-admin.php:944
+msgid "Use Open Graph protocol:"
+msgstr "Usa protocollo Open Graph:"
+
+#: add-link-to-facebook-admin.php:951
+msgid "Open Graph protocol <em>og:type</em>:"
+msgstr "Protocollo Open Graph <em>og:type</em>:"
+
+#: add-link-to-facebook-admin.php:954
+msgid "Default 'article'"
+msgstr "'article' predefinito"
+
+#: add-link-to-facebook-admin.php:959
+msgid "Facebook administrators:"
+msgstr "Amministratori Facebook:"
+
+#: add-link-to-facebook-admin.php:962
+msgid "Separate multiple administrators by a comma without spaces"
+msgstr "separa gli amministratori con una virgola (senza spazi)"
+
+#: add-link-to-facebook-admin.php:973
+msgid "Miscelaneous settings"
+msgstr "Impostazioni varie"
+
+#: add-link-to-facebook-admin.php:976
+msgid "Do not add link by default:"
+msgstr "Non aggiungere i link (predefinito):"
+
+#: add-link-to-facebook-admin.php:982
+msgid "Don't show a summary in the post list:"
+msgstr "Non mostrare sommario nella lista degli articoli:"
+
+#: add-link-to-facebook-admin.php:988
+msgid "Add links for new pages:"
+msgstr "Aggiungi link a nuove pagine:"
+
+#: add-link-to-facebook-admin.php:994
+msgid "Show link to the added link on Facebook:"
+msgstr "Mostra link al link aggiunto su Facebook:"
+
+#: add-link-to-facebook-admin.php:1000
+msgid "Facebook character encoding:"
+msgstr "Codifica del carattere FB:"
+
+#: add-link-to-facebook-admin.php:1003
+msgid "Default UTF-8; do not change if no need"
+msgstr "predefinito UTF-8; cambia solo se necessario"
+
+#: add-link-to-facebook-admin.php:1007
+msgid "Facebook locale:"
+msgstr "Facebook locale:"
+
+#: add-link-to-facebook-admin.php:1010
+msgid "Do not change if no need"
+msgstr "cambia solo se necessario"
+
+#: add-link-to-facebook-admin.php:1014
+msgid "I have donated to this plugin:"
+msgstr "Ho donato:"
+
+#: add-link-to-facebook-admin.php:1020
+msgid "I have rated this plugin:"
+msgstr "Ho già votato:"
+
+#: add-link-to-facebook-admin.php:1034
+msgid "Administrator options"
+msgstr "Opzioni amministratore"
+
+#: add-link-to-facebook-admin.php:1037
+msgid "Facebook communication timeout:"
+msgstr "Timeout comunicazioni Facebook:"
+
+#: add-link-to-facebook-admin.php:1040
+msgid "Seconds"
+msgstr "secondi"
+
+#: add-link-to-facebook-admin.php:1041
+msgid "Default 15 seconds"
+msgstr "predefinito a 15 secondi"
+
+#: add-link-to-facebook-admin.php:1045
+msgid "Do not display notices:"
+msgstr "Non mostrare avvisi:"
+
+#: add-link-to-facebook-admin.php:1048
+msgid "Except on this page"
+msgstr "riassumi su questa pagina"
+
+#: add-link-to-facebook-admin.php:1052
+msgid "Required capability to use plugin:"
+msgstr "Condizione richiesta per l&rsquo;utilizzo del plugin:"
+
+#: add-link-to-facebook-admin.php:1078
+msgid "Hide post submit additions too:"
+msgstr "Nascondi anche post submit additions:"
+
+#: add-link-to-facebook-admin.php:1084
+msgid "Required capability to view Facebook comments:"
+msgstr "Condizione richiesta per vedere i commenti FB:"
+
+#: add-link-to-facebook-admin.php:1105
+msgid "Refresh Facebook comments every:"
+msgstr "Ricarica i commenti di Facebook ogni:"
+
+#: add-link-to-facebook-admin.php:1108
+msgid "Minutes"
+msgstr "minuti"
+
+#: add-link-to-facebook-admin.php:1109
+msgid "Default every 10 minutes"
+msgstr "predefinito a 10 minuti"
+
+#: add-link-to-facebook-admin.php:1113
+msgid "Refresh Facebook comments for:"
+msgstr "Ricarica commenti Facebook  per:"
+
+#: add-link-to-facebook-admin.php:1116
+msgid "Days"
+msgstr "giorni"
+
+#: add-link-to-facebook-admin.php:1117
+msgid "Default 7 days"
+msgstr "predefinito a 7 giorni"
+
+#: add-link-to-facebook-admin.php:1121
+msgid "Refresh Facebook comments in the background:"
+msgstr "Ricarica i commenti di Facebook nel background:"
+
+#: add-link-to-facebook-admin.php:1124
+msgid "Using Wordress cron"
+msgstr "Utilizza Wordress cron"
+
+#: add-link-to-facebook-admin.php:1128
+msgid "Maximum text length with trailer:"
+msgstr "Lunghezza max per il testo con trailer:"
+
+#: add-link-to-facebook-admin.php:1131
+#: add-link-to-facebook-admin.php:1139
+#: add-link-to-facebook-admin.php:1147
+msgid "Characters"
+msgstr "caratteri"
+
+#: add-link-to-facebook-admin.php:1132
+#: add-link-to-facebook-admin.php:1148
+msgid "Default 256 characters"
+msgstr "256 caratteri (predefinito)"
+
+#: add-link-to-facebook-admin.php:1136
+msgid "Maximum Facebook text length:"
+msgstr "Lunghezza max per il testo Facebook:"
+
+#: add-link-to-facebook-admin.php:1140
+msgid "Default 10,000 characters"
+msgstr "10000 caratteri (predefinito)"
+
+#: add-link-to-facebook-admin.php:1144
+msgid "Maximum comment length with trailer:"
+msgstr "Lunghezza max commento con trailer:"
+
+#: add-link-to-facebook-admin.php:1152
+msgid "Exclude these custom post types:"
+msgstr "Escludi questi tipi di articoli personalizzati:"
+
+#: add-link-to-facebook-admin.php:1155
+#: add-link-to-facebook-admin.php:1163
+#: add-link-to-facebook-admin.php:1170
+#: add-link-to-facebook-admin.php:1178
+#: add-link-to-facebook-admin.php:1185
+msgid "Separate by commas"
+msgstr "separa con delle virgole"
+
+#: add-link-to-facebook-admin.php:1159
+msgid "Exclude these categories:"
+msgstr "Escludi queste categorie:"
+
+#: add-link-to-facebook-admin.php:1160
+msgid "Use category ID's"
+msgstr "Usa ID categoria"
+
+#: add-link-to-facebook-admin.php:1167
+msgid "Exclude these tags:"
+msgstr "Escludi questi tag:"
+
+#: add-link-to-facebook-admin.php:1174
+msgid "Exclude these authors:"
+msgstr "Escludi questi autori:"
+
+#: add-link-to-facebook-admin.php:1175
+msgid "Use login names"
+msgstr "Usa nomi login"
+
+#: add-link-to-facebook-admin.php:1182
+msgid "Add meta box for these custom post types:"
+msgstr "Aggiungi box meta per questi tipi di articoli personalizzati:"
+
+#: add-link-to-facebook-admin.php:1189
+msgid "Do not verify the peer's certificate:"
+msgstr "Non verificare il certificato peer:"
+
+#: add-link-to-facebook-admin.php:1192
+msgid "Try this in case of cURL error 60"
+msgstr "da provare in caso di cURL error 60"
+
+#: add-link-to-facebook-admin.php:1196
+msgid "Execute shortcodes in widgets:"
+msgstr "Esegui shortcode nei widget:"
+
+#: add-link-to-facebook-admin.php:1202
+msgid "Do not execute shortcodes for texts:"
+msgstr "Non eseguire shortcode per testo:"
+
+#: add-link-to-facebook-admin.php:1208
+msgid "Do not execute filters for texts:"
+msgstr "Non eseguire shortcode per testo:"
+
+#: add-link-to-facebook-admin.php:1214
+msgid "Do not execute filters for comments:"
+msgstr "Non eseguire filtri per i commenti:"
+
+#: add-link-to-facebook-admin.php:1220
+msgid "Use Heise social share privacy:"
+msgstr "Usa Heise social share privacy:"
+
+#: add-link-to-facebook-admin.php:1226
+msgid "Heise privacy policy URL:"
+msgstr "Heise - URL privacy policy:"
+
+#: add-link-to-facebook-admin.php:1232
+msgid "Priority filter 'the_content':"
+msgstr "Priority filter 'the_content':"
+
+#: add-link-to-facebook-admin.php:1238
+msgid "No asynchronous Facebook script:"
+msgstr "No asynchronous Facebook script:"
+
+#: add-link-to-facebook-admin.php:1244
+msgid "Do not include Facebook script:"
+msgstr "Non includere script Facebook:"
+
+#: add-link-to-facebook-admin.php:1247
+msgid "In case of conflicts with other Facebook plugins"
+msgstr "in caso di conflitto con altri plugin per Facebook"
+
+#: add-link-to-facebook-admin.php:1251
+msgid "Clean on deactivate:"
+msgstr "Svuota alla disattivazione:"
+
+#: add-link-to-facebook-admin.php:1253
+msgid "Upgrade deactivates the plugin!"
+msgstr "L&rsquo;aggiornamento disattiva il plugin!"
+
+#: add-link-to-facebook-admin.php:1256
+msgid "All data, except link id's"
+msgstr "tutti i dati, id link estratti"
+
+#: add-link-to-facebook-admin.php:1260
+msgid "Additional styling rules (CSS):"
+msgstr "Regole CSS aggiuntive:"
+
+#: add-link-to-facebook-admin.php:1270
+msgid "Debug options"
+msgstr "Opzioni debug"
+
+#: add-link-to-facebook-admin.php:1273
+msgid "Use site URL as request URI:"
+msgstr "Usa URL sito come URI richiedente:"
+
+#: add-link-to-facebook-admin.php:1279
+msgid "Do not use cURL:"
+msgstr "Non usare cURL:"
+
+#: add-link-to-facebook-admin.php:1285
+msgid "Use publish_post action:"
+msgstr "Utilizza azione publish_post:"
+
+#: add-link-to-facebook-admin.php:1291
+msgid "Debug:"
+msgstr "Debug:"
+
+#: add-link-to-facebook-admin.php:1306
+msgid "Only for administrators"
+msgstr "Solo per amministratori"
+
+#: add-link-to-facebook-admin.php:1313
+msgid "No tab pages"
+msgstr "No pagine tab"
+
+#: add-link-to-facebook-admin.php:1356
+msgid "Resources"
+msgstr "Risorse"
+
+#: add-link-to-facebook-admin.php:1358
+msgid "Setup guide & user manual"
+msgstr "Guida installazione e manuale utente"
+
+#: add-link-to-facebook-admin.php:1359
+msgid "Frequently asked questions"
+msgstr "FAQ"
+
+#: add-link-to-facebook-admin.php:1360
+msgid "Pro version"
+msgstr "Versione PRO"
+
+#: add-link-to-facebook-admin.php:1361
+msgid "Support page"
+msgstr "Pagina di supporto "
+
+#: add-link-to-facebook-admin.php:1362
+#: add-link-to-facebook-admin.php:1393
+msgid "Debug information"
+msgstr "Informazioni debug"
+
+#: add-link-to-facebook-admin.php:1363
+msgid "About the author"
+msgstr "Info autore"
+
+#: add-link-to-facebook-admin.php:1364
+msgid "Other plugins"
+msgstr "Altri plugin"
+
+#: add-link-to-facebook-admin.php:1400
+msgid "Name:"
+msgstr "Nome:"
+
+#: add-link-to-facebook-admin.php:1406
+msgid "E-mail:"
+msgstr "Email:"
+
+#: add-link-to-facebook-admin.php:1409
+msgid "Please check if this is a correct, reachable e-mail address"
+msgstr "Selezionare se questo indirizzo email fosse corretto ed attivo"
+
+#: add-link-to-facebook-admin.php:1413
+msgid "Forum topic link:"
+msgstr "Link a argomento forum:"
+
+#: add-link-to-facebook-admin.php:1416
+msgid "Mandatory"
+msgstr "Obbligatorio"
+
+#: add-link-to-facebook-admin.php:1420
+msgid "Message:"
+msgstr "Messaggio:"
+
+#: add-link-to-facebook-admin.php:1423
+msgid "Please describe your problem, even if you did before"
+msgstr "Descrivi il tuo problema (anche se già fatto)"
+
+#: add-link-to-facebook-admin.php:1427
+msgid "Did you check if your problem is described in <a href=\"[FAQ]\" target=\"_blank\">the FAQ</a> ?"
+msgstr "Hai controllato che il problema non sia descritto nelle <a href=\"[FAQ]\" target=\"_blank\">FAQ</a> ?"
+
+#: add-link-to-facebook-admin.php:1432
+msgid "Send"
+msgstr "Invia"
+
+#: add-link-to-facebook-class.php:558
+msgid "Settings updated"
+msgstr "Le impostazioni sono state aggiornate"
+
+#: add-link-to-facebook-class.php:577
+msgid "Authorized, go posting!"
+msgstr "Tutto ok! Puoi iniziare..."
+
+#: add-link-to-facebook-class.php:610
+msgid "Forum topic link is mandatory"
+msgstr "Link a argomento forum (obbligatorio)"
+
+#: add-link-to-facebook-class.php:627
+msgid "Debug information sent"
+msgstr "Le informazioni debug sono state inviate"
+
+#: add-link-to-facebook-class.php:632
+msgid "Sending debug information failed"
+msgstr "L&rsquo;invio delle informazioni debug é fallito"
+
+#: add-link-to-facebook-class.php:656
+msgid "needs configuration"
+msgstr "deve essere configurato"
+
+#: add-link-to-facebook-class.php:660
+msgid "needs authorization"
+msgstr "è necessaria l&rsquo;autorizzazione"
+
+#: add-link-to-facebook-class.php:666
+msgid "should be authorized again to show Facebook messages in the widget"
+msgstr "dovrebbe essere autorizzato nuovamente per potere così mostrare i messaggi Facebook nel widget"
+
+#: add-link-to-facebook-class.php:706
+msgid "If you like the Add Link to Facebook plugin, please rate it on <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />If the average rating is low, it makes no sense to support this plugin any longer.<br />You can disable this notice by checking the option \"I have rated this plugin\" on the <a href=\"[settings]\">settings page</a>."
+msgstr "Avessi gradito il plugin Add Link to Facebook, esprimi la tua valutazione su <a href=\"[wordpress]\" target=\"_blank\">wordpress.org</a>.<br />Se il gradimento fosse basso, non avrà più senso sviluppare questo plugin.<br />Puoi disattivare questo messaggio mettendo il segno di spunta alla opzione \"Ho già votato\" nella pagina delle <a href=\"[settings]\">impostazioni</a>."
+
+#: add-link-to-facebook-class.php:709
+msgid "Through a mishap on the WordPress.org systems, previous ratings for the plugin were lost.<br />If you've rated the plugin in the past, your rating was accidentally removed.<br />So if you would be so kind as to rate the plugin again, I'd appreciate it. Thanks!"
+msgstr "Per causa di un problema al WordPress.org systems, le precedenti votazioni per questo plugin sono andate perse.<br />Avessi già votato, la tua valutazione è stata accidentalmente rimossa.<br />Abbi quindi la cortesia di esprimere nuovamente il tuo voto. Grazie! "
+
+#: add-link-to-facebook-class.php:726
+msgid "Administration"
+msgstr "Amministrazione"
+
+#: add-link-to-facebook-class.php:748
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: add-link-to-facebook-class.php:802
+msgid "Do not add link to Facebook"
+msgstr "Non aggiungere link a FB"
+
+#: add-link-to-facebook-class.php:805
+msgid "Do not add like button"
+msgstr "No pulsante FB Mi piace"
+
+#: add-link-to-facebook-class.php:808
+msgid "Do not integrate comments"
+msgstr "Non integrare i commenti"
+
+#: add-link-to-facebook-class.php:815
+msgid "Update existing Facebook link"
+msgstr "Aggiorna link a Facebook in uso"
+
+#: add-link-to-facebook-class.php:817
+msgid "Comments and likes will be lost!"
+msgstr "I commenti ed i Mi piace saranno perduti!"
+
+#: add-link-to-facebook-class.php:820
+msgid "Delete existing Facebook link"
+msgstr "Rimuovi link a FB già esistenti"
+
+#: add-link-to-facebook-class.php:822
+msgid "Link on Facebook"
+msgstr "link su Facebook"
+
+#: add-link-to-facebook-class.php:830
+msgid "Clear error messages"
+msgstr "Svuota messaggi errore"
+
+#: add-link-to-facebook-class.php:847
+#: add-link-to-facebook-int.php:436
+msgid "Facebook"
+msgstr "Facebook"
+
+#: add-link-to-facebook-class.php:872
+msgid "Yes"
+msgstr "Si"
+
+#: add-link-to-facebook-class.php:874
+msgid "No"
+msgstr "No"
+
+#: add-link-to-facebook-class.php:885
+msgid "comments"
+msgstr "commenti"
+
+#: add-link-to-facebook-class.php:893
+msgid "likes"
+msgstr "mi piace"
+
+#: add-link-to-facebook-class.php:934
+msgid "No images in the media library for this post"
+msgstr "Nessuna immagine per questo articolo presente nella Libreria media"
+
+#: add-link-to-facebook-class.php:940
+msgid "Select link image:"
+msgstr "Seleziona link immagine:"
+
+#: add-link-to-facebook-class.php:983
+msgid "Custom excerpt"
+msgstr "Riassunto personalizzato"
+
+#: add-link-to-facebook-class.php:989
+msgid "Custom text"
+msgstr "Testo personalizzato"
+
+#: add-link-to-facebook-class.php:1902
+msgid "Facebook ID"
+msgstr "ID Facebook"
+
+#: add-link-to-facebook-class.php:1907
+msgid "What is my Facebook ID?"
+msgstr "Cosa é la mia ID Facebook?"
+
+#: add-link-to-facebook-class.php:1964
+#: add-link-to-facebook-class.php:2077
+msgid "on Facebook"
+msgstr "su Facebook"
+
+#: add-link-to-facebook-class.php:2083
+msgid "Liked this post"
+msgstr "Mi piace questo post"
+
+#: add-link-to-facebook-int.php:531
+msgid "Share"
+msgstr "Condividi"
+
+#: add-link-to-facebook-int.php:692
+#: add-link-to-facebook-int.php:745
+msgid "commented on"
+msgstr "commentato su"
+
+#: add-link-to-facebook-int.php:946
+msgid "Information"
+msgstr "Informazioni"
+
+#: add-link-to-facebook-int.php:1114
+msgid "WordPress user name"
+msgstr "Nome utente WordPress"
+
+#: add-link-to-facebook-int.php:1161
+msgid "Please enable third-party cookies"
+msgstr "Attiva cookie di terza parte"
+
+#: add-link-to-facebook-int.php:1237
+msgid "Facebook registration failed"
+msgstr "Registrazione utente non riuscita "
+
+#: add-link-to-facebook-int.php:1244
+msgid "User registration disabled"
+msgstr "Registrazione utente disattivata"
+
+#: add-link-to-facebook-int.php:1250
+msgid "Facebook e-mail address missing"
+msgstr "Manca indirizzo email Facebook"
+
+#: add-link-to-facebook-int.php:1258
+msgid "E-mail address in use"
+msgstr "Iindirizzo email in uso"
+
+#: add-link-to-facebook-int.php:1266
+msgid "Facebook user ID missing"
+msgstr "Manca ID utente Facebook"
+
+#: add-link-to-facebook-int.php:1354
+msgid "User not found"
+msgstr "Utente non trovato"
+
+#: add-link-to-facebook-int.php:1369
+#: add-link-to-facebook-int.php:1378
+msgid "Could not verify Facebook login"
+msgstr "Impossibile verificare login a Facebook"
+
+#: add-link-to-facebook-widget.php:336
+msgid "Title:"
+msgstr "Titolo:"
+
+#: add-link-to-facebook-widget.php:341
+msgid "Show Facebook comments"
+msgstr "Mostra commenti Facebook"
+
+#: add-link-to-facebook-widget.php:343
+#: add-link-to-facebook-widget.php:352
+msgid "Maximum number:"
+msgstr "Numero massimo:"
+
+#: add-link-to-facebook-widget.php:346
+#: add-link-to-facebook-widget.php:359
+msgid "Appearance depends on your theme!"
+msgstr "L&rsquo;aspetto dipenderà dal tuo tema!"
+
+#: add-link-to-facebook-widget.php:350
+msgid "Show Facebook messages"
+msgstr "Mostra messaggi Facebook"
+
+#: add-link-to-facebook-widget.php:357
+msgid "Show comments on messages"
+msgstr "Mostra i commenti nei messaggi"
+
+#: add-link-to-facebook-widget.php:363
+msgid "Show Facebook like button"
+msgstr "Mostra pulsante FB Mi piace"
+
+#: add-link-to-facebook-widget.php:367
+msgid "Show Facebook like box"
+msgstr "Mostra Facebook like box"
+
+#: add-link-to-facebook-widget.php:371
+msgid "Show Facebook send button"
+msgstr "Mostra pulsante FB Send"
+
+#: add-link-to-facebook-widget.php:375
+msgid "Show Facebook comments plugin"
+msgstr "Mostra plugin commenti Facebook"
+
+#: add-link-to-facebook-widget.php:379
+msgid "Show Facebook face pile"
+msgstr "Mostra Facebook face pile"
+
+#: add-link-to-facebook-widget.php:383
+msgid "Show Facebook image/link"
+msgstr "Mostra immagine/link FB"
+
+#: add-link-to-facebook-widget.php:387
+msgid "Show Facebook registration"
+msgstr "Mostra registrazione Facebook"
+
+#: add-link-to-facebook-widget.php:391
+msgid "Show Facebook login"
+msgstr "Mostra Login Facebook"
+
+#: add-link-to-facebook-widget.php:395
+msgid "Show Facebook activity feed"
+msgstr "Mostra feed attività Facebook"
+
+#~ msgid "Go to dashboard"
+#~ msgstr "Vai alla bacheca"
+
+#~ msgid "Do not collect statistics:"
+#~ msgstr "Non raccogliere statistiche:"
+
+#~ msgid "Add as page owner:"
+#~ msgstr "Aggiungi come proprietario pagina: "
+
+#~ msgid "When checked links will be added as the page"
+#~ msgstr "I link selezionati saranno aggiunti come la pagina"
+
+#~ msgid ""
+#~ "I don't want to support this plugin with the Sustainable Plugins "
+#~ "Sponsorship Network:"
+#~ msgstr ""
+#~ "Non desidero supportare questo plugin via Sustainable Plugins Sponsorship "
+#~ "Network:"
+
+#~ msgid "Privacy in the Sustainable Plugins Sponsorship Network"
+#~ msgstr "Privacy in the Sustainable Plugins Sponsorship Network"
+
+#~ msgid "Disable"
+#~ msgstr "Disabilita"
+
+#~ msgid "Use iframe in stead of XFBML:"
+#~ msgstr "Usa iframe, no XFBML:"
+
+#~ msgid "Use shared Facebook application:"
+#~ msgstr "Usa applicazione condividivisione segnalibro:"
+
+#~ msgid "Simple, but less secure"
+#~ msgstr "Semplice, ma meno sicuro"
+
+#~ msgid "Leave blank to let Facebook choose"
+#~ msgstr "lascia in bianco per predefinito Facebook"
