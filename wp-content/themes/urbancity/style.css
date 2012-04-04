@@ -118,8 +118,8 @@ blockquote {
 	background-position:bottom center;
 }
 #wrapper2 {
-	background:url(images/bg_backlight_top.png) no-repeat;
-	background-position:top center;
+	background-image:url(images/background-repeat.png);
+        background-repeat: repeat-x;
 }
 
 /* Required WP Styles */
@@ -245,10 +245,9 @@ button:active,
 	display:table;
         background-image: url(images/background.png);
         background-repeat: no-repeat;
-        background-position: 0px 2px;
 }
 #header .logo {
-	margin-top:50px;
+	margin-top:10px;
 	margin-bottom:22px;
 }
 #header .logo a {
@@ -259,7 +258,7 @@ button:active,
 	text-indent:-9999px;
 }
 #header .nav {
-	margin:200px 0 64px;
+	margin: 0 0 35px;
 	font-family:'Oswald', Arial, sans-serif;
 	font-size:16px;
 	text-transform:uppercase;
@@ -270,7 +269,7 @@ button:active,
 	margin:0;
 	padding:0;
 	height:1em;
-	float:right;
+	/*float:right;*/
 	position:relative;
 	z-index:999;
 }
@@ -278,7 +277,8 @@ button:active,
 	list-style:none;
 	float:left;
 	zoom:1;
-	margin-left:50px;
+	margin-left:0px;
+	margin-right: 50px;
 }
 .navbar ul li:hover {
 	position:relative;
@@ -565,6 +565,9 @@ button:active,
 	text-align:center;
 	text-transform:uppercase;
 	margin-top:20px;
+}
+.social_bar .connect {
+   margin-top: 3px;
 }
 .social_bar .connect ul {
 	margin-right:40px;
@@ -1038,4 +1041,8 @@ table.em-calendar td.eventful-today a:hover {
 }
 .lbsLibronix img {
 	float:none !important;
+}
+
+.give-online-container .branding {
+   margin-top: 30px;
 }

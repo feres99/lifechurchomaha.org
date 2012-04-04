@@ -26,7 +26,7 @@ $ct_custom_css = $theme_options['custom_css'];
 
 	wp_head();
 ?>
-<?php if(is_home()): ?>
+<?php if(is_front_page()): ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/lib/scripts/jquery.slider.php"></script>
 <?php endif; ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/lib/scripts/custom.js"></script>
@@ -41,11 +41,12 @@ $ct_custom_css = $theme_options['custom_css'];
 <div id="wrapper">
 	<div id="wrapper2">
 		<div id="header" class="container_12">
-			<div class="grid_3 alpha logo">
+			<div class="grid_12 alpha omega logo">
 				<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?> - <?php echo esc_attr(get_bloginfo('description', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 			</div>
-			<div class="grid_9 omega nav">
+			<div class="clear"></div>
+			<div class="grid_12 alpha omega nav">
 				<?php ct_primary_nav_menu(); ?>
 			</div>
 		</div>
-<?php if(is_home()): get_template_part('slider'); endif; ?>
+<?php if(is_front_page()): get_template_part('slider'); endif; ?>
