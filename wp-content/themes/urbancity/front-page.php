@@ -7,7 +7,7 @@
  */
 
 get_header(); ?>
-		<div id="wrapper3" class="container_12">
+<div id="wrapper3" class="container_12">
 			<div class="grid_4 alpha">
 				<?php dynamic_sidebar('Homepage Left'); ?>
 			</div>
