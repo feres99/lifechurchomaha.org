@@ -69,7 +69,7 @@ class giveonline_widget extends WP_Widget {
 					<a target="_blank" href="https://www.paypal.com/us/mrb/pal=WC5EWXNR7VAXS">
 						<img title="Powered by PayPal"
 							alt="PayPal"
-							src="images/paypal_with_methods.png" />
+							src="wp-content/plugins/give-online/images/paypal_with_methods.png" />
 					</a>
 				</div>
 			</div>
@@ -85,7 +85,7 @@ class giveonline_widget extends WP_Widget {
 		$instance['title'] = strip_tags($new_instance['title']);
 		$instance['paypalid'] = strip_tags($new_instance['paypalid']);
 		$instance['defaultamount'] = strip_tags($new_instance['defaultamount']);
-		$instance['textcontent'] = strip_tags($new_instance['textcontent']);
+		$instance['textcontent'] = $new_instance['textcontent'];
 
 		// $instance['title'] = strip_tags($new_instance['title']);
 		// $instance['soup_number'] = strip_tags($new_instance['soup_number']);

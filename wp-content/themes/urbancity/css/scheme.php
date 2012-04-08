@@ -30,7 +30,7 @@
 
 #header .logo a {
 <?php if($ct_logo): ?>
-	background:url(<?php echo $ct_logo; ?>) no-repeat;
+	/*background:url(<?php echo $ct_logo; ?>) no-repeat;*/
 <?php endif; ?>
 	width:<?php echo $ct_logo_width; ?>px;
 	height:<?php echo $ct_logo_height; ?>px;

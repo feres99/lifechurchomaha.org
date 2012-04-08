@@ -392,7 +392,7 @@ function al2fb_render_admin($al2fb)
 
 				$selected_page = get_user_meta($user_ID, c_al2fb_meta_page, true);
 				$extra_page = get_user_meta($user_ID, c_al2fb_meta_page_extra, true);
-				if (empty($extra_page))
+				if (empty($extra_page) || !is_array($extra_page))
 					$extra_page = array();
 ?>
 				<div id="al2fb_pages">
@@ -489,7 +489,7 @@ function al2fb_render_admin($al2fb)
 				}
 				$selected_group = get_user_meta($user_ID, c_al2fb_meta_group, true);
 				$extra_group = get_user_meta($user_ID, c_al2fb_meta_group_extra, true);
-				if (empty($extra_group))
+				if (empty($extra_group) || !is_array($extra_group))
 					$extra_group = array();
 ?>
 				<tr valign="top"><th scope="row">
@@ -1423,6 +1423,14 @@ function al2fb_render_resources($al2fb) {
 }
 
 function al2fb_render_ads($al2fb) {
+	// Host1Plus
+	//echo '<div class="al2fb_ads">';
+	//echo '<a href="http://www.host1plus.com/" target="_blank">';
+	//echo '<img src="' . plugins_url('host1plus.jpg', __FILE__) . '" width="250" height="67" alt="Host1Plus">';
+	//echo '</a>';
+	//echo '</div>';
+
+	// ManageWP
 	echo '<div class="al2fb_ads">';
 	echo '<a href="http://managewp.com/?utm_source=Plugins&utm_medium=Banner&utm_content=mwp250_2&utm_campaign=addtofacebook" target="_blank">';
 	echo '<img src="' . plugins_url('mwp250_2.png', __FILE__) . '" alt="ManageWP">';

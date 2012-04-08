@@ -4,6 +4,7 @@ $theme_options = get_option('ct_theme_options');
 $ct_favicon = $theme_options['favicon'];
 $ct_ios_icon = $theme_options['ios_icon'];
 $ct_custom_css = $theme_options['custom_css'];
+$ct_logo = $theme_options['logo'];
 
 ?>
 <!DOCTYPE html>
@@ -42,7 +43,9 @@ $ct_custom_css = $theme_options['custom_css'];
 	<div id="wrapper2">
 		<div id="header" class="container_12">
 			<div class="grid_12 alpha omega logo">
-				<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?> - <?php echo esc_attr(get_bloginfo('description', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+				<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?> - <?php echo esc_attr(get_bloginfo('description', 'display')); ?>" rel="home">
+				   <img src="<?php echo $ct_logo; ?>" alt="<?php bloginfo('name'); ?>" />
+				</a>
 			</div>
 			<div class="clear"></div>
 			<div class="grid_12 alpha omega nav">

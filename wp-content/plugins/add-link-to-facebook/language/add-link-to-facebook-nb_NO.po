@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-03-04 10:56+0100\n"
+"PO-Revision-Date: 2012-03-20 22:05+0100\n"
 "Last-Translator: Marcel Bokhorst\n"
 "Language-Team: Marcel Bokhorst\n"
 "X-Poedit-Language: Norwegian\n"
@@ -461,7 +461,7 @@ msgstr "Ved et uhell på WordPress.org systemene, gikk tidligere rangeringer for
 msgid "Generated excerpt"
 msgstr "Generert utdrag"
 
-msgid "Custom exerpt"
+msgid "Custom excerpt"
 msgstr "Tilpasset utdrag"
 
 msgid "Use iframe in stead of XFBML:"
@@ -940,4 +940,10 @@ msgstr "Nettside"
 
 msgid "Use links API instead of feed API:"
 msgstr "Bruk lenker API i stedet for feed API:"
+
+msgid "Extra URL parameter"
+msgstr "Ekstra URL parametere"
+
+msgid "For example for Google Analytics"
+msgstr "For eksempel for Google Analytics"
 

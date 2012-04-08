@@ -43,7 +43,7 @@ $vimeo = $social_footer_settings['vimeo'];
 <?php endif; ?>
 	</div>
 	<div id="footer" class="container_12">
-		<div class="grid_5 alpha">
+		<div class="grid_4 alpha copyright">
 			<p><?php if($ct_footer_copyright): echo $ct_footer_copyright.'<br />'; endif; ?></p>
 		</div>
 		<?php ct_footer_nav_menu(); ?>

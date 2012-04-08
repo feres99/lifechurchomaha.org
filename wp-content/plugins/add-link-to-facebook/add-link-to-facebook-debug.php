@@ -315,7 +315,7 @@ function al2fb_debug_info($al2fb) {
 		// Actual picture
 		$picture = $al2fb->Get_link_picture($posts->post, $al2fb->Get_user_ID($posts->post));
 
-		$info .= '<tr><td>Post #' . $posts->post->ID . ':</td>';
+		$info .= '<tr><td>' . $posts->post->post_type . ' #' . $posts->post->ID . ':</td>';
 		$info .= '<td><a href="' . get_permalink($posts->post->ID) . '" target="_blank">' . htmlspecialchars(get_the_title($posts->post->ID), ENT_QUOTES, $charset) . '</a>';
 		$info .= ' by ' . htmlspecialchars($userdata->user_login, ENT_QUOTES, $charset);
 		$info .= ' @ ' . $posts->post->post_date;
@@ -434,6 +434,8 @@ function al2fb_debug_info($al2fb) {
 					$page->info = $e->getMessage();
 				}
 		$info .= '<pre>pages=' . print_r($pages, true) . '</pre>';
+		$ep = get_user_meta($user_ID, c_al2fb_meta_page_extra, true);
+		$info .= '<pre>extra=' . print_r($ep, true) . '</pre>';
 	}
 	catch (Exception $e) {
 		$info .= '<pre>pages=' . $e->getMessage() . '</pre>';

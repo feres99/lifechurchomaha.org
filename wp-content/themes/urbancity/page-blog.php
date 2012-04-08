@@ -52,7 +52,7 @@ get_header();
 ?>
 <?php
 
-	get_template_part('loop');
+	get_template_part('loop'); echo "Cheese";
 
 ?>
 			</div>

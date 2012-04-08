@@ -784,6 +784,10 @@ if (!class_exists('WPAL2Facebook')) {
 
 			require_once('add-link-to-facebook-admin.php');
 			al2fb_render_admin($this);
+
+			global $updates_al2fb;
+			if (isset($updates_al2fb))
+				$updates_al2fb->checkForUpdates();
 		}
 
 		// Add checkboxes
@@ -1014,13 +1018,23 @@ if (!class_exists('WPAL2Facebook')) {
 				echo '<textarea id="al2fb_text" name="al2fb_text" cols="40" rows="1" class="attachmentlinks">';
 				echo $text . '</textarea>';
 
+				// URL parameters
+				$url_param_name = get_post_meta($post->ID, c_al2fb_meta_url_param_name, true);
+				$url_param_value = get_post_meta($post->ID, c_al2fb_meta_url_param_value, true);
+				echo '<h4>' . __('Extra URL parameter', c_al2fb_text_domain) . '</h4>';
+				echo __('For example for Google Anaylytics', c_al2fb_text_domain) . '<br>';
+				echo '<input type="text" id="al2fb_url_param_name" name="al2fb_url_param_name" value="' . $url_param_name . '" />';
+				echo '&nbsp;=&nbsp;';
+				echo '<input type="text" id="al2fb_url_param_value" name="al2fb_url_param_value" value="' . $url_param_value . '" />';
+
+				// Current link picture
 				echo '<h4>' . __('Link picture', c_al2fb_text_domain) . '</h4>';
 
 				$picture_info = self::Get_link_picture($post, $user_ID);
 				if (!empty($picture_info['picture']))
 					echo '<img src="' . $picture_info['picture'] . '" alt="Link picture">';
 				if ($this->debug)
-					echo '<br /><span style="font-size: smaller;">' . $picture_info['picture_type'] . '</span>';
+					echo '<br /><span style="font-size: smaller;">' . $picture_info['picture_type'] . ': ' . $picture_info['picture'] . '</span>';
 
 				// Error messages
 				if ($this->debug) {
@@ -1097,6 +1111,16 @@ if (!class_exists('WPAL2Facebook')) {
 				update_post_meta($post_id, c_al2fb_meta_text, trim($_POST['al2fb_text']));
 			else
 				delete_post_meta($post_id, c_al2fb_meta_text);
+
+			if (isset($_POST['al2fb_url_param_name']) && !empty($_POST['al2fb_url_param_name']))
+				update_post_meta($post_id, c_al2fb_meta_url_param_name, trim($_POST['al2fb_url_param_name']));
+			else
+				delete_post_meta($post_id, c_al2fb_meta_url_param_name);
+
+			if (isset($_POST['al2fb_url_param_value']) && !empty($_POST['al2fb_url_param_value']))
+				update_post_meta($post_id, c_al2fb_meta_url_param_value, trim($_POST['al2fb_url_param_value']));
+			else
+				delete_post_meta($post_id, c_al2fb_meta_url_param_value);
 		}
 
 		// Remote publish & custom action
@@ -1553,6 +1577,14 @@ if (!class_exists('WPAL2Facebook')) {
 					if (empty($picture))
 						$picture = WPAL2Int::Redirect_uri() . '?al2fb_image=1';
 
+					// Video
+					$video = false;
+					global $VipersVideoQuicktags;
+					if (isset($VipersVideoQuicktags)) {
+						do_shortcode($post->post_content);
+						$video = reset($VipersVideoQuicktags->swfobjects);
+					}
+
 					// Get type
 					$ogp_type = get_user_meta($user_ID, c_al2fb_meta_open_graph_type, true);
 					if (empty($ogp_type))
@@ -1565,6 +1597,8 @@ if (!class_exists('WPAL2Facebook')) {
 					echo '<meta property="og:image" content="' . $picture . '" />' . PHP_EOL;
 					echo '<meta property="og:url" content="' . get_permalink($post->ID) . '" />' . PHP_EOL;
 					echo '<meta property="og:site_name" content="' . htmlspecialchars($title, ENT_COMPAT, $charset) . '" />' . PHP_EOL;
+					if ($video)
+						echo '<meta property="og:video" content="' . $video['url'] . '" />' . PHP_EOL;
 
 					$texts = self::Get_texts($post);
 					$maxlen = get_option(c_al2fb_option_max_descr);

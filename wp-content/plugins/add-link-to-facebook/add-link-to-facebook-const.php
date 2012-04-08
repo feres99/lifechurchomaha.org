@@ -145,6 +145,8 @@ define('c_al2fb_meta_nolike', 'al2fb_facebook_nolike');
 define('c_al2fb_meta_nointegrate', 'al2fb_facebook_nointegrate');
 define('c_al2fb_meta_excerpt', 'al2fb_facebook_excerpt');
 define('c_al2fb_meta_text', 'al2fb_facebook_text');
+define('c_al2fb_meta_url_param_name', 'al2fb_facebook_url_param_name');
+define('c_al2fb_meta_url_param_value', 'al2fb_facebook_url_param_value');
 define('c_al2fb_meta_log', 'al2fb_log');
 
 define('c_al2fb_action_update', 'al2fb_action_update');

@@ -14,7 +14,9 @@ class AL2FB_Widget extends WP_Widget {
 	function widget($args, $instance) {
 		global $wp_al2fb;
 
-		if (!is_single() && !is_page())
+		$user_ID = isset($instance['al2fb_userid']) ? $instance['al2fb_userid'] : false;
+
+		if (!$user_ID && !is_single() && !is_page())
 			return;
 
 		// Get current post
@@ -31,7 +33,8 @@ class AL2FB_Widget extends WP_Widget {
 			return;
 
 		// Get user
-		$user_ID = $wp_al2fb->Get_user_ID($post);
+		if (!$user_ID)
+			$user_ID = $wp_al2fb->Get_user_ID($post);
 
 		// Check if widget should be displayed
 		if ((get_user_meta($user_ID, c_al2fb_meta_like_nohome, true) && is_home()) ||
@@ -268,26 +271,37 @@ class AL2FB_Widget extends WP_Widget {
 	}
 
 	function update($new_instance, $old_instance) {
+		// Get current user
+		global $user_ID;
+		get_currentuserinfo();
+
 		$instance = $old_instance;
-		$instance['title'] = strip_tags($new_instance['title']);
-		$instance['al2fb_comments'] = $new_instance['al2fb_comments'];
-		$instance['al2fb_comments_count'] = $new_instance['al2fb_comments_count'];
-		$instance['al2fb_messages'] = $new_instance['al2fb_messages'];
-		$instance['al2fb_messages_count'] = $new_instance['al2fb_messages_count'];
-		$instance['al2fb_messages_comments'] = $new_instance['al2fb_messages_comments'];
-		$instance['al2fb_like_button'] = $new_instance['al2fb_like_button'];
-		$instance['al2fb_like_box'] = $new_instance['al2fb_like_box'];
-		$instance['al2fb_send_button'] = $new_instance['al2fb_send_button'];
-		$instance['al2fb_comments_plugin'] = $new_instance['al2fb_comments_plugin'];
-		$instance['al2fb_face_pile'] = $new_instance['al2fb_face_pile'];
-		$instance['al2fb_profile'] = $new_instance['al2fb_profile'];
-		$instance['al2fb_registration'] = $new_instance['al2fb_registration'];
-		$instance['al2fb_login'] = $new_instance['al2fb_login'];
-		$instance['al2fb_activity'] = $new_instance['al2fb_activity'];
+		if (!$instance['al2fb_userid'] || $instance['al2fb_userid'] == $user_ID) {
+			$instance['title'] = strip_tags($new_instance['title']);
+			$instance['al2fb_comments'] = $new_instance['al2fb_comments'];
+			$instance['al2fb_comments_count'] = $new_instance['al2fb_comments_count'];
+			$instance['al2fb_messages'] = $new_instance['al2fb_messages'];
+			$instance['al2fb_messages_count'] = $new_instance['al2fb_messages_count'];
+			$instance['al2fb_messages_comments'] = $new_instance['al2fb_messages_comments'];
+			$instance['al2fb_like_button'] = $new_instance['al2fb_like_button'];
+			$instance['al2fb_like_box'] = $new_instance['al2fb_like_box'];
+			$instance['al2fb_send_button'] = $new_instance['al2fb_send_button'];
+			$instance['al2fb_comments_plugin'] = $new_instance['al2fb_comments_plugin'];
+			$instance['al2fb_face_pile'] = $new_instance['al2fb_face_pile'];
+			$instance['al2fb_profile'] = $new_instance['al2fb_profile'];
+			$instance['al2fb_registration'] = $new_instance['al2fb_registration'];
+			$instance['al2fb_login'] = $new_instance['al2fb_login'];
+			$instance['al2fb_activity'] = $new_instance['al2fb_activity'];
+			$instance['al2fb_userid'] = $new_instance['al2fb_userid'] ? $user_ID : false;
+		}
 		return $instance;
 	}
 
 	function form($instance) {
+		// Get current user
+		global $user_ID;
+		get_currentuserinfo();
+
 		if (empty($instance['title']))
 			$instance['title'] = null;
 		if (empty($instance['al2fb_comments']))
@@ -318,6 +332,18 @@ class AL2FB_Widget extends WP_Widget {
 			$instance['al2fb_login'] = false;
 		if (empty($instance['al2fb_activity']))
 			$instance['al2fb_activity'] = false;
+		if (empty($instance['al2fb_userid']))
+			$instance['al2fb_userid'] = false;
+
+		$shared_user_ID = $instance['al2fb_userid'];
+		if ($shared_user_ID && $shared_user_ID != $user_ID) {
+			$userdata = get_userdata($shared_user_ID);
+			echo '<p id="message" al2fb_error">';
+			echo __('Only this user can access the settings:', c_al2fb_text_domain);
+			echo ' ' . $userdata->user_login . ' (id=' . $shared_user_ID . ')';
+			echo '</p>';
+			return;
+		}
 
 		$chk_comments = ($instance['al2fb_comments'] ? ' checked ' : '');
 		$chk_messages = ($instance['al2fb_messages'] ? ' checked ' : '');
@@ -331,7 +357,8 @@ class AL2FB_Widget extends WP_Widget {
 		$chk_registration = ($instance['al2fb_registration'] ? ' checked ' : '');
 		$chk_login = ($instance['al2fb_login'] ? ' checked ' : '');
 		$chk_activity = ($instance['al2fb_activity'] ? ' checked ' : '');
-		?>
+		$chk_userid = ($instance['al2fb_userid'] ? ' checked ' : '');
+?>
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($instance['title']); ?>" />
@@ -393,8 +420,12 @@ class AL2FB_Widget extends WP_Widget {
 
 			<input class="checkbox" type="checkbox" <?php echo $chk_activity; ?> id="<?php echo $this->get_field_id('al2fb_activity'); ?>" name="<?php echo $this->get_field_name('al2fb_activity'); ?>" />
 			<label for="<?php echo $this->get_field_id('al2fb_activity'); ?>"><?php _e('Show Facebook activity feed', c_al2fb_text_domain); ?></label>
+			<br />
+
+			<input class="checkbox" type="checkbox" <?php echo $chk_userid; ?> id="<?php echo $this->get_field_id('al2fb_userid'); ?>" name="<?php echo $this->get_field_name('al2fb_userid'); ?>" />
+			<label for="<?php echo $this->get_field_id('al2fb_userid'); ?>"><?php _e('Show everywhere using my settings', c_al2fb_text_domain); ?></label>
 		</p>
-		<?php
+<?php
 	}
 }
 
