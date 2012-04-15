@@ -22,7 +22,7 @@ get_header(); ?>
 		</div>
 		<div id="wrapper3" class="container_12">
 			<div id="content" class="grid_8 alpha">
-<?php if(have_posts()): while(have_posts()): the_post(); ?>
+<?php if(have_posts()): while(have_posts()): the_post(); ?
 				<?php the_content(); ?>
 				<?php
 					wp_link_pages(array(

@@ -25,7 +25,9 @@ get_header();
 			<div class="container_12 content">
 				<div class="grid_6 alpha">
 					<h1>
-<?php if(is_day()): ?>
+<?php if (is_category()): ?>
+			        <?php single_cat_title(); ?>
+<?php elseif(is_day()): ?>
 				<?php printf( __('Daily Archives', 'churchthemes'), get_the_date()); ?>
 <?php elseif(is_month()): ?>
 				<?php printf( __('Monthly Archives', 'churchthemes'), get_the_date('F Y')); ?>

@@ -245,10 +245,11 @@ button:active,
 	display:table;
         background-image: url(images/skyline.png);
         background-repeat: no-repeat;
+	text-align: center;
 }
 #header .logo {
-	margin-top:10px;
-	margin-bottom:22px;
+	margin-top: 10px;
+	margin-bottom: 35px;
 	text-align: center;
 }
 #header .logo a {
@@ -260,10 +261,11 @@ button:active,
 	 border: 0;
 }
 #header .nav {
-	margin: 0 0 27px;
-	font-family:'Oswald', Arial, sans-serif;
-	font-size:16px;
-	text-transform:uppercase;
+	margin: 0 0 21px;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
 }
 
 /* Navigation */

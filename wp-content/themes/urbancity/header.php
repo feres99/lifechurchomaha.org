@@ -48,7 +48,7 @@ $ct_logo = $theme_options['logo'];
 				</a>
 			</div>
 			<div class="clear"></div>
-			<div class="grid_12 alpha omega nav">
+			<div class="nav">
 				<?php ct_primary_nav_menu(); ?>
 			</div>
 		</div>

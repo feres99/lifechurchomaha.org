@@ -46,13 +46,13 @@ get_header();
 <?php
 	else:
 ?>
-			<div id="content" class="grid_8 alpha">
+			<div id="content" class="grid_8 alpha">what?
 <?php
 	endif;
 ?>
 <?php
 
-	get_template_part('loop'); echo "Cheese";
+	get_template_part('loop');
 
 ?>
 			</div>
