@@ -126,7 +126,7 @@ blockquote {
 .alignleft {
 	display:inline;
 	float:left;
-	margin-right:10px;
+	margin-right:20px;
 }
 .alignright {
 	display:inline;
@@ -180,6 +180,7 @@ blockquote {
 }
 
 /* Inputs and Buttons */
+/*
 input[type=text],
 input[type=email],
 textarea {
@@ -239,7 +240,7 @@ button:active,
 	background:-o-linear-gradient(#7a7e84, #fff);
 	color:#3b3b3b;
 }
-
+*/
 /* Header */
 #header {
 	display:table;
@@ -261,7 +262,7 @@ button:active,
 	 border: 0;
 }
 #header .nav {
-	margin: 0 0 21px;
+	margin: 0 0 8px;
 	font-family: 'Oswald', Arial, sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -527,15 +528,15 @@ button:active,
 }
 .home_widget {
 	margin-bottom:30px;
-	width: 85%;
 }
+/*
 .widget input[type=text],
 .widget input[type=email],
 .widget teaxtarea {
 	background:#1f2225;
 	background:url(images/bg_input_widget.png);
 	background:rgba(0,0,0,0.25);
-}
+}*/
 .widget #searchform input#s {
 	width:145px;
 }
@@ -1061,7 +1062,7 @@ table.em-calendar td.eventful-today a:hover {
 }
 
 .list_locations li {
-    border-bottom: 1px dashed #3B3B3B;
+    border-bottom: 1px dashed #ddd;
     list-style: none outside none;
     margin-left: 0;
     padding: 15px 0;
@@ -1070,6 +1071,10 @@ table.em-calendar td.eventful-today a:hover {
 .list_locations li.first {
     background-position: 0 6px;
     padding-top: 0;
+}
+
+.list_locations li.last {
+   border-bottom: none;
 }
 
 .list_locations li p {
@@ -1109,6 +1114,18 @@ table.em-calendar td.eventful-today a:hover {
 	text-decoration: none;
 }
 
-.sidebar-left {
-   margin-left: 20px;
+.container_12 .grid_4.custom-grid {
+    width: 266px;
+}
+
+.rounded {
+   border-radius: 4px;
+}
+
+label {
+   color: #ddd;
+}
+
+textarea[name="prayerRequest"] {
+   height: 150px;
 }

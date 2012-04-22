@@ -33,7 +33,7 @@ require_once ($functions_path . 'entry-views.php');		// Entry views extension
 /* End ChurchThemes Functions - Feel free to add your own custom functions below!        */
 /*---------------------------------------------------------------------------------------*/
 
-
+remove_filter ('the_content', 'wpautop');
 
 
 

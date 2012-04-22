@@ -62,8 +62,8 @@ class giveonline_widget extends WP_Widget {
 					<input type="hidden" value="<?php echo $paypalid; ?>" name="business">
 					<input type="hidden" value="General Fund" name="item_name">
 					<input type="hidden" value="USD" name="currency_code">
-					$ <input type="text" value="<?php echo $defaultamount; ?>" size="10" class="amount" name="amount">
-					<input type="submit" value="Give" name="submit" class="button">
+					$ <input type="text" value="<?php echo $defaultamount; ?>" class="amount span2" name="amount">
+					<input type="submit" value="Give" name="submit" class="btn btn-primary">
 				</form>
 				<div class="branding">
 					<a target="_blank" href="https://www.paypal.com/us/mrb/pal=WC5EWXNR7VAXS">
